@@ -1,0 +1,21 @@
+#h1::before{
+    
+    content: "hello world";
+    color: black;
+    display: block;
+    
+}
+
+img{
+    
+    width: 30%;
+    /* filter: brightness(160%); nisbat soto3 */
+    /* filter: contrast(170%); wodoh sora */
+    /*  filter: blur(1px); dbaba lsora */
+    /* filter: grayscale(70%); byed ou k7el */
+    /* filter: opacity(30%); bayna */
+    /*    filter: sepia(60%); nisbat lboni dakin f sora */
+    /*filter: saturate(5); 9owat l2alwan fi sora*/
+    
+}
+

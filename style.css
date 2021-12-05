@@ -1,0 +1,88 @@
+
+    
+    *{margin: 0;padding: 0;}
+header{
+    height: 100px;
+    width: 100%;
+    background-image: linear-gradient(to left, #808080,#e4e7eb);
+}
+#logoBox{width: 30%; height: 100%; float: left;background-color:#d6dbe0;}
+#logo{height: 100%;width: 80%;}
+nav a{text-decoration: none;color: white;font-weight:bold;display: inline-block;}
+nav li{display: inline-block;line-height: 100px;width: 100px;text-align: center;}
+nav {width: 100%;text-align: right;}
+nav a:hover{
+    background-color: white;
+    color: #4b4b4b;
+    width: 100%;
+    height: 30%;
+    line-height: 30px;
+        
+}
+
+
+    
+ #join{border: 1px solid white;width: 70; height: 30%; line-height: 30px;border-radius: 3px;}
+  
+    main{
+        width: 100%;
+        height: 450px;
+        background-color: aqua;
+        border-top: 3px solid white;
+    }
+    aside{
+        width: 30%;
+        height: 100%;
+        background-color:aliceblue;
+        text-align: center;
+        float: left;
+    }
+    aside img{
+        width: 95%;
+    }
+    #bp{padding: 20px 0;
+        font-size: 25px;
+        font-family:Lucida Handwriting;
+        
+        color: #2e2e2e;
+        border-bottom: 2px solid #808080;
+    }
+    a{text-decoration: none;}
+    
+    #article{width: 70%;
+             height: 450px;
+             background-color: #000000;
+             float: right;
+             position: relative;
+    }
+    
+    video{
+           width: 100%;
+           height: 100%;
+           position: absolute;
+        
+    }
+    
+    #rs{width: 100%;display: flex;justify-content: center;margin-top: 10px;}
+    #rs img {width: 50px; border-bottom: 2px solid #767676;padding-bottom: 10px;}
+    #rs img:hover{width: 60px;border-bottom: 2px solid #000000;}
+    #bp:hover{color: #002155;font-size: 30px;}
+
+
+@media all {}
+
+@media print {}
+
+@media only screen and (min-width:666px) and (max-width:737px) {
+    
+    nav li {width: 90px;}
+}
+
+@media only screen and (min-width:595px) and (max-width:666px) {
+    
+    nav li {width: 80px;}
+}
+@media only screen and (min-width:570px) and (max-width:595px) {
+    
+    nav li {width: 70px;}
+}
